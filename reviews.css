@@ -1,0 +1,19 @@
+.About{
+    margin:8%;
+    text-align: center;
+    /* padding:10px; */
+}
+
+.contactus{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+
+@media(max-width){
+    .contactus{
+        table-layout: auto;
+        flex-direction: column;
+    }
+    
+}

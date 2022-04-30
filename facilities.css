@@ -1,0 +1,25 @@
+.facilities {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+
+}
+
+.facilities_row{
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.facilities_col:hover{
+    box-shadow: 0 0 18px 0px grey;
+    background: rgba(117, 74, 74, 0.3);
+    font-size: 60px;
+}
+
+@media(max-width:700px){
+.facilities_row{
+    flex-direction: column;
+}
+}

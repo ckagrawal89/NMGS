@@ -1,0 +1,209 @@
+<!-- <!DOCTYPE html> -->
+<html>
+
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+
+    <!-- CSS filess -->
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="dealswith.css">
+    <link rel="stylesheet" href="associate-dealer.css">
+    <link rel="stylesheet" href="facilities.css">
+    <link rel="stylesheet" href="reviews.css">
+
+
+    <!-- Font from Google font:Tapestry-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tapestry&display=swap" rel="stylesheet">
+    <!--font link-->
+
+    <!--for icon less than screen size of 700px-->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <!-- <link rel="stylesheet" href="https://stckpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+
+</head>
+
+<body>
+    <section class="header-bg">
+        <nav>
+            <a href="home.html"><img src="items/logo.jpg" width="50px"></a>
+            <!-- <div class="nav-pan" id="navipannel">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li> <a href="home.html">HOME</a></li>
+                        <li> <a href="about.html">ABOUT US</a></li>
+                        <li> <a href="product.html">PRODUCTS</a></li>
+                        <li> <a href=".About">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="OpenMenu()"></i> -->
+        </nav>
+        <div class="comp-name">
+            <h1>NEW MANOKAMNA GENERAL STORE</h1>
+            <p>A complete beauty solution in one roof</p>
+            <a href="#abt" class="cont-btn">Contact us</a>
+        </div>
+    </section>
+
+    <!-- Deals With -->
+    <section class="dealswith">
+        <h1>Deals With</h1>
+        <p>We Deals with all variety of Cosmetic Items</p>
+
+        <div class="deals_row">
+            <div class="deals_row1">
+                <div class="deals_col">
+                    <h2>Decorative</h2>
+                    <p>This is the sample text for the 'deals with' selection columns.
+                        A ejkbfkjfskhvf sjkbfjkbk jffj bkdkhsbfls dhfilskfj bsjkbvschv </p>
+                </div>
+                <div class="deals_col">
+                    <h2>Skin Care</h2>
+                    <p>This is the sample text for the 'deals with' selection columns.
+                        A ejkbfkjfskhvf sjkbfjkbk jffj bkdkhsbfls dhfilskfj bsjkbvschv </p>
+                </div>
+                <div class="deals_col">
+                    <h2>Hair Care</h2>
+                    <p>This is the sample text for the 'deals with' selection columns.
+                        A ejkbfkjfskhvf sjkbfjkbk jffj bkdkhsbfls dhfilskfj bsjkbvschv </p>
+                </div>
+            </div>
+            <div class="deals_row2">
+                <div class="deals_col">
+                    <h2>Perfumes</h2>
+                    <p>This is the sample text for the 'deals with' selection columns.
+                        A ejkbfkjfskhvf sjkbfjkbk jffj bkdkhsbfls dhfilskfj bsjkbvschv </p>
+                </div>
+                <div class="deals_col">
+                    <h2>Brushes</h2>
+                    <p>This is the sample text for the 'deals with' selection columns.
+                        A ejkbfkjfskhvf sjkbfjkbk jffj bkdkhsbfls dhfilskfj bsjkbvschv </p>
+                </div>
+                <div class="deals_col">
+                    <h2>Others</h2>
+                    <p>This is the sample text for the 'deals with' selection columns.
+                        A ejkbfkjfskhvf sjkbfjkbk jffj bkdkhsbfls dhfilskfj bsjkbvschv </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Associated Dealer -->
+    <section class="dealer">
+        <h1>Associated Dealer</h1>
+        <p>We deal with the different brands</p>
+        <div class="dealer_row">
+            <div class="dealer_row1">
+                <div class="dealer_col"><img src="https://www.alnagroup.co.in/wp-content/uploads/2021/01/logo_s.png"
+                        alt="Alna Care..."></div>
+                <div class="dealer_col"><img
+                        src="https://cdn.shopify.com/s/files/1/0633/8520/7020/files/Denver_Horizontal_Logo_Final_1.png?height=67&pad_color=ffffff&v=1648750177&width=150"
+                        alt="Denver"></div>
+                <div class="dealer_col"><img
+                        src="data:image/jpeg;base64,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"
+                        height="90" width="150" alt="Orveal"></div>
+            </div>
+            <div class="dealer_row2">
+
+                <div class="dealer_col"><img src="#" alt="company 4"></div>
+                <div class="dealer_col"><img src="#" alt="company 5"></div>
+                <div class="dealer_col"><img src="#" alt="company 6"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities -->
+    <section class="facilities">
+        <h1>Facilities</h1>
+        <p> we are here to serve you with beauty.</p>
+        <div class="facilities_row">
+            <div class="facilities_col">
+                <img src="items/pickup.png" alt="Loading">
+                <h4>In-Store Pick-Up</h4>
+                <p>Book you item through call and schedule time to pick your stuff</p>
+            </div>
+            <div class="facilities_col">
+                <img src="items/shopping.jpg" alt="Loading">
+                <h4>In-Store Shopping</h4>
+                <p>Have a list of item,Make a time to visit and enjoy</p>
+            </div>
+            <div class="facilities_col">
+                <img src="items/delivery.png" alt="Loading">
+                <h4>Delivery</h4>
+                <p>Order the list and get it in your door step</p>
+            </div>
+    </section>
+
+    <!-- Contact us -->
+
+    <section class="About" id="abt">
+        <div class="contactus">
+            <div class="contact">
+                <table cellspacing="10px">
+                    <tr>
+
+                        <th colspan="2">
+                            <h1>Contact Us</h1>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Contact No.: </th>
+                        <td>+977-9855035064</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2"></th>
+                        <td>+977-9806898669</td>
+                    </tr>
+                    <tr>
+                        <td>+977-51-521460</td>
+                    </tr>
+                    <tr>
+                        <th>Address:</th>
+                        <td>Mahabir Gali, Road No. 2,</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2"></th>
+                        <td>Maisthan-06, Birgunj</td>
+                    </tr>
+                    <tr>
+                        <td>Parsa, Nepal</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="contact">
+                <table cellspacing="20px">
+                    <tr>
+                        <th colspan="2">
+                            <h1>About Us</h1>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" colspan="2" align="center">This is about us part.<br> here the brief about of
+                            organization will be there</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </section>
+
+    <script>
+        var navipannel = document.getElementById("navipannel");
+        function hideMenu() {
+            navipannel.home.right = "0px";
+        }
+        function OpenMenu() {
+            navipannel.home.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>
